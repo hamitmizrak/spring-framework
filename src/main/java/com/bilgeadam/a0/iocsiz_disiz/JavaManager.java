@@ -1,4 +1,4 @@
-package com.bilgeadam.a0.cdsiz_disiz;
+package com.bilgeadam.a0.iocsiz_disiz;
 
 public class JavaManager {
 	
