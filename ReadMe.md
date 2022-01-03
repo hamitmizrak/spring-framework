@@ -1,4 +1,4 @@
 #Java working
-[DJava 16
-Wildfly
+Java 16
+Wildfly 25
 Cdi
