@@ -17,7 +17,7 @@ public class _2_ProducesNew implements Serializable {
 	private static final long serialVersionUID = 3516393981392398653L;
 	
 	@Produces
-	public int uretilenMahsul(@New StudentDto dto) {
+	public int uretilenMahsul( @New StudentDto dto) {
 		dto = new StudentDto();
 		dto.setStudentNumber(555);
 		return dto.getStudentNumber();
