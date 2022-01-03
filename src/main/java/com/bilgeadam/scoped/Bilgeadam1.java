@@ -10,7 +10,7 @@ import javax.inject.Named;
 @RequestScoped
 public class Bilgeadam1 {
 	
-	public String getRequest() {
+	public String getScoped() {
 		return "request:" + hashCode();
 	}
 }
