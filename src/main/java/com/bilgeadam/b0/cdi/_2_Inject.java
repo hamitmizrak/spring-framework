@@ -21,4 +21,11 @@ public class _2_Inject implements Serializable {
 		return nameList;
 	}
 	
+	@Inject
+	private String nameSurname;
+	
+	public String getNameSurname() {
+		return nameSurname;
+	}
+	
 }

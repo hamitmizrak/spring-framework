@@ -16,7 +16,7 @@ public class _2_Produces implements Serializable {
 	
 	// üreten kısım
 	@Produces
-	public List<String> getList() {
+	public List<String> list() {
 		List<String> listem = new ArrayList<String>();
 		listem.add("Gülten Yonkuc");
 		listem.add("Canan Havva");
@@ -24,4 +24,10 @@ public class _2_Produces implements Serializable {
 		listem.add("Mustafa Öztürk");
 		return listem;
 	}
+	
+	@Produces
+	public String adimSoyadi() {
+		return "Hamit Mızrak";
+	}
+	
 }
