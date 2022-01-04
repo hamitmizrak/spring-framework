@@ -1,4 +1,4 @@
-package com.bilgeadam.d1.aop.interceptor;
+package com.bilgeadam.d1.aop.a0.interceptor;
 
 public class Login {
 	// false: logindir

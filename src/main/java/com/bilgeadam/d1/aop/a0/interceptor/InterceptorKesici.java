@@ -1,4 +1,4 @@
-package com.bilgeadam.d1.aop.interceptor;
+package com.bilgeadam.d1.aop.a0.interceptor;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Inherited;
