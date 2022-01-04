@@ -1,4 +1,4 @@
-package com.bilgeadam.d1.aop;
+package com.bilgeadam.d1.aop.interceptor;
 
 @InterceptorKesici
 public class AraKesici {

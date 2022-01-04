@@ -1,4 +1,4 @@
-package com.bilgeadam.d1.aop;
+package com.bilgeadam.d1.aop.interceptor;
 
 import java.io.Serializable;
 
