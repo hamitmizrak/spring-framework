@@ -1,4 +1,4 @@
-package com.bilgeadam.scoped;
+package com.bilgeadam.b1.scoped;
 
 import java.io.Serializable;
 
@@ -9,7 +9,7 @@ import javax.inject.Named;
 // yani bukelemon gibi
 @Named
 @Dependent
-public class Bilgeadam4_Dependent implements Serializable {
+public class _4_a_Dependent implements Serializable {
 	private static final long serialVersionUID = -3112160708263140526L;
 	
 	public String getScoped() {

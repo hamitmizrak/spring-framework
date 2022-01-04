@@ -1,4 +1,4 @@
-package com.bilgeadam.scoped;
+package com.bilgeadam.b1.scoped;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
@@ -8,9 +8,16 @@ import javax.inject.Named;
 // performans düşüklüğüe sebeb oalbilir.
 @Named
 @RequestScoped
-public class Bilgeadam1 {
+public class _1_RequestScoped {
 	
 	public String getScoped() {
 		return "request:" + hashCode();
 	}
 }
+
+// Software Prensible kiss ,s.o.l.i.d
+// Design pattern
+// VirtualBox :oracle
+// Linux Ubuntu 20.0.4 download + JDK+Maven+
+// Windows Docker
+// DevOps felsefesi

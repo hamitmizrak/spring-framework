@@ -1,8 +1,8 @@
-package com.bilgeadam.scoped;
+package com.bilgeadam.b1.scoped;
 
 import java.io.Serializable;
 
-import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.context.SessionScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -10,10 +10,10 @@ import javax.inject.Named;
 // Aynı browserda yaşar farklı browserda yaşamaz
 // sessionscope implements yazılmalıdır.
 @Named
-@ApplicationScoped
-public class Bilgeadam5_DependentSession implements Serializable {
+@SessionScoped
+public class _4_Dependent_DependentSession implements Serializable {
 	private static final long serialVersionUID = -3112160708263140526L;
 	
 	@Inject
-	Bilgeadam4_Dependent dependent;
+	_4_a_Dependent dependent;
 }

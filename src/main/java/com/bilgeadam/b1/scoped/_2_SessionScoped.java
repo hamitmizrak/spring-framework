@@ -1,4 +1,4 @@
-package com.bilgeadam.scoped;
+package com.bilgeadam.b1.scoped;
 
 import java.io.Serializable;
 
@@ -10,7 +10,7 @@ import javax.inject.Named;
 // sessionscope implements yazılmalıdır.
 @Named
 @SessionScoped
-public class Bilgeadam2 implements Serializable {
+public class _2_SessionScoped implements Serializable {
 	private static final long serialVersionUID = -3112160708263140526L;
 	
 	public String getScoped() {
