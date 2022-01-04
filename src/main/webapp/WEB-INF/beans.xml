@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Beans: IoC, Cdi calismasi icin gereklidir. -->
 <beans bean-discovery-mode="all" version="1.1"
- xmlns="http://xmlns.jcp.org/xml/ns/javaee"
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="         http://xmlns.jcp.org/xml/ns/javaee         http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd">
- 
- <!-- alternatives -->
- <alternatives>
-   <class>com.bilgeadam.c1.alternative.JavaVersion18</class>
- </alternatives>
- 
- <!-- interceptor -->
- <interceptors>
-   <class>com.bilgeadam.d1.aop.InterceptorAraKesiciAsilClass</class>
- </interceptors>
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="         http://xmlns.jcp.org/xml/ns/javaee         http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd">
+
+	<!-- alternatives -->
+	<alternatives>
+		<class>com.bilgeadam.c1.alternative.JavaVersion18</class>
+	</alternatives>
+
+	<!-- interceptor -->
+	<interceptors>
+		<class>com.bilgeadam.d1.aop.a0.interceptor.InterceptorAraKesiciAsilClass</class>
+	</interceptors>
+
+	<!-- decorator -->
+	<decorators>
+		<class>com.bilgeadam.d1.aop.a2.decorator.OkulDecorator</class>
+	</decorators>
+
 </beans>
