@@ -5,8 +5,9 @@
         http://xmlns.jcp.org/xml/ns/javaee
         http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd" bean-discovery-mode="all">
         
+        <!-- alternatives -->
         <alternatives>
-           <class>com.bilgeadam.c1.alternative.JavaVersion17</class>
+           <class>com.bilgeadam.c1.alternative.JavaVersion18</class>
         </alternatives>
         
 </beans>
