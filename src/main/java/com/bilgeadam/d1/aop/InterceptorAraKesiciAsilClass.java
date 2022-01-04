@@ -1,5 +1,7 @@
 package com.bilgeadam.d1.aop;
 
+import java.util.Date;
+
 import javax.interceptor.AroundInvoke;
 import javax.interceptor.Interceptor;
 import javax.interceptor.InvocationContext;
@@ -22,7 +24,8 @@ public class InterceptorAraKesiciAsilClass {
 			try {
 				// loglama,security,validation
 				devamEdeyimMi = context.proceed();
-				System.out.println("son hali: " + devamEdeyimMi);
+				System.out.println("zaman: " + new Date(System.currentTimeMillis()) + "son hali: " + devamEdeyimMi);
+				
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

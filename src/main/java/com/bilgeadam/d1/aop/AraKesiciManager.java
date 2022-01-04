@@ -11,6 +11,7 @@ import javax.inject.Named;
 public class AraKesiciManager implements Serializable {
 	private static final long serialVersionUID = 6919152730411650191L;
 	
+	// eğer Scope türü: @SessionScoped ise ==> transient private AraKesici araKesici
 	@Inject
 	private AraKesici araKesici;
 	
