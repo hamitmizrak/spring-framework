@@ -17,7 +17,7 @@ public class EventBeanListener implements Serializable {
 	private Event<EventData> event;
 	
 	public void eventListenerMethod() {
-		EventData data = new EventData("Seni dinliyorum:   ");
+		EventData data = new EventData("Seni dinliyorum: ");
 		event.fire(data);
 		// event.fire(new EventData("Seni dinliyorum: "));
 	}
